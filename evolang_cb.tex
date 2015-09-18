@@ -1,6 +1,7 @@
 \documentclass{evolang11}
 \usepackage{graphicx}
 \usepackage{url}
+\usepackage[raggedright]{sidecap}
 
 \begin{document}
 
@@ -14,35 +15,26 @@
 
 
 
-A universal feature of language is that words vary in their length within a language, in terms of morphemes, syllables, phonemes. There have been several accounts of this variability in the literature that appeal to the form of language itself, such as the frequency of a word, or its predictability in context. Information theory, however, suggests another factor might influence length: the predictability, or complexity, of a word's meaning \cite{frank2008speaking}. This theory predicts that if speakers try to maintain a constant rate of information  across the speech stream, then more complex meanings should be longer. Previous experimental work finds exactly this pattern: participants tend to assign  longer words  to more complex meanings, relative to shorter words \cite<{\it complexity bias;}>{lewisFrankUR}.
+A universal feature of language is that words vary in their length within a language, in terms of morphemes, syllables, phonemes. There have been several accounts of this variability in the literature that appeal to the form of language itself, such as the frequency of a word, or its predictability in context. Information theory, however, suggests another factor might influence length: the predictability, or complexity, of a word's meaning \cite{frank2008speaking}. This theory predicts that if speakers try to maintain a constant rate of information  across the speech stream, then more complex meanings should be longer. 
 
-% is that speakers should lengthen unpredictable meanings, in order to keep the amount of information constant across the speech stream . Recent work, however, points to another factor that influences the length of a word: the complexity of its meaning.  
+Previous work has shown evidence for this {\it complexity bias}. Experimentally, participants tend to assign longer words to more complex meanings, relative to shorter words \cite{lewisstructure2014}. And natural languages also show this bias \cite{lewisFrankUR}. To estimate the bias in each language, ratings of conceptual complexity were collected for 499 English words and then translated into 79 additional languages using the Google Translate. For each language, there was a correlation between word length and conceptual complexity (grand mean $r =  .34$), and this bias held controlling for word frequency (grand mean $r = .22$) and other semantic variables, like concreteness. Despite the presence of this bias across all languages we examined, however, there was also a large degree of variability ($SD = .12$;  Fig.\ 1). 
 
-
-Critically, this prior work also finds this bias in natural language. To estimate the bias in each language,  ratings of conceptual complexity were collected for 499 English words and then translated into 79 additional languages using the Google Translate. For each language, there was a correlation between word length and conceptual complexity (grand mean $r =  .34$), and this bias held controlling for word frequency (grand mean $r = .22$) and other semantic variables, like concreteness.
  
-\begin{figure}[hb]
-\begin{center}
-\scalebox{0.5}{\includegraphics{Fig1.pdf}}
-\end{center}
+\begin{SCfigure}[1.0][t]
+\includegraphics[width=3.75in]{Fig1.pdf}
 \caption{Magnitude of the complexity bias across 79 languages. Each point corresponds to a language. \label{fig1}}
-\end{figure}
-
-But, despite the presence of this bias across all the languages we examined, there was also a large degree of variability ($SD = .12$;  Fig.\ 1). In our work here, we explore one possible account of this variability---that the degree to which a language encodes conceptual complexity in the lexicon is related to the degree of learnability pressure on the language.
-
-Learnability pressure has been argued as one factor influencing the morphological complexity of a language \cite{lupyan2010language}. Under this hypothesis, languages are thought to adapt to their particular social context, depending on the cohesiveness of the population acquiring the language. Languages that are  acquired by a diverse population of speakers---many  adult second-language learners, for example---might be morphologically simpler, than those acquired only by children. Consistent with this prediction, languages that are spoken by more people tend to be less morphologically complex.
-
-We hypothesized that the same force might influence the degree to which languages encode information density in the lexicon. To test this, we calculated the correlation between a language's complexity bias and its population of speakers. Consistent with previous work, we found that languages with more speakers tend to have a smaller complexity bias ($r = -34$;  Fig.\ 2), and this result remained reliable even after controlling for language family.
-
-This result suggests that learnability pressure may force languages to rely on non-lexical strategies, like speech rate \cite{pellegrino2011across}, to maintain a uniform information density across speech.
+\end{SCfigure}
 
 
-\begin{figure}[ht]
-\begin{center}
-\scalebox{0.5}{\includegraphics{Fig2.pdf}}
-\end{center}
+In our work here, we explore one possible account of this variability: that the degree to which a language encodes conceptual complexity in the lexicon is related to the learnability pressure on the language. Learnability pressure has been argued as one factor influencing the morphological complexity of a language \cite{lupyan2010language}. Under this hypothesis, languages are thought to adapt to their particular social context, depending on the cohesiveness of the population acquiring the language. Languages that are  acquired by a diverse population of speakers---many adult learners, for example---might be morphologically simpler, than those acquired only by children. Consistent with this prediction, languages that are spoken by more people tend to be less morphologically complex.
+
+We hypothesized that the same force might influence the degree to which languages encode information density in the lexicon. We calculated the correlation between a language's complexity bias and its population of speakers. Consistent with previous work, we found that languages with more speakers tend to have a smaller complexity bias ($r = -.34$;  Fig.\ 2), and this result remained reliable even after controlling for language family. Thus, learnability pressure may force languages to rely on non-lexical strategies, like speech rate \cite{pellegrino2011across}, to maintain a uniform information density across speech.
+
+
+\begin{SCfigure}[1.0][t]
+\includegraphics[width=3.5in]{Fig2.pdf}
 \caption{Relationship between complexity bias and speaker population. Each point corresponds to a language. \label{fig2}}
-\end{figure}
+\end{SCfigure}
 
 
 %\cite{lewis and Frank under review}
@@ -54,6 +46,6 @@ This result suggests that learnability pressure may force languages to rely on n
 
 
 \bibliographystyle{apacite}
-\bibliography{biblibrary} 
+{\footnotesize \bibliography{biblibrary} }
 
 \end{document}
