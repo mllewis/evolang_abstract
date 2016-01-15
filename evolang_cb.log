@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.16)  18 SEP 2015 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.16)  14 JAN 2016 18:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -283,7 +283,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: Fig1.pdf Graphic file (type pdf)
  <use Fig1.pdf>
 Package pdftex.def Info: Fig1.pdf used on input line 24.
-(pdftex.def)             Requested size: 271.0125pt x 135.50592pt.
+(pdftex.def)             Requested size: 224.03743pt x 112.01733pt.
  [1
 
 
@@ -292,20 +292,20 @@ Package pdftex.def Info: Fig1.pdf used on input line 24.
 File: Fig2.pdf Graphic file (type pdf)
  <use Fig2.pdf>
 Package pdftex.def Info: Fig2.pdf used on input line 35.
-(pdftex.def)             Requested size: 252.94499pt x 126.46887pt.
+(pdftex.def)             Requested size: 231.26378pt x 115.62885pt.
  (./evolang_cb.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 )
 [2 <./Fig1.pdf> <./Fig2.pdf>] (./evolang_cb.aux) ) 
 Here is how much of TeX's memory you used:
- 2893 strings out of 493093
- 38102 string characters out of 6134989
- 102591 words of memory out of 5000000
- 6310 multiletter control sequences out of 15000+600000
+ 2895 strings out of 493093
+ 38145 string characters out of 6134989
+ 101618 words of memory out of 5000000
+ 6312 multiletter control sequences out of 15000+600000
  21498 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,26p,872b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,26p,868b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texm
 f-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
@@ -314,7 +314,7 @@ e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on evolang_cb.pdf (2 pages, 207724 bytes).
+Output written on evolang_cb.pdf (2 pages, 208469 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
